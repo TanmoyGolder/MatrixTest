@@ -4,6 +4,7 @@
 using namespace std;
 
 
+
 void swap (int &a,int &b)
 {
 	int t=a;
@@ -11,6 +12,11 @@ void swap (int &a,int &b)
 	b=t;
 }
  
+/*a:matrix
+  r=#row
+  c=#col
+*/
+
 int ** tan_mat_anti_clock_rot(int **a,int r,int c)
 {
     for(int i=0;i<r;i++)
